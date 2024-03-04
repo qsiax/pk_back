@@ -1,2 +1,2 @@
-## Installing project
+## Install Project
 npm i
