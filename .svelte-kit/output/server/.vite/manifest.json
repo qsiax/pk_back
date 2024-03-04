@@ -1,0 +1,847 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "_04.js": {
+    "assets": [
+      "_app/immutable/assets/01.K3-VJT3G.png",
+      "_app/immutable/assets/02.tViyAXrg.png",
+      "_app/immutable/assets/03.kek0pp1P.png",
+      "_app/immutable/assets/04.1dUevm22.png"
+    ],
+    "file": "chunks/04.js"
+  },
+  "_Contact.js": {
+    "file": "chunks/Contact.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_Document.js": {
+    "file": "chunks/Document.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_Heading.js": {
+    "css": [
+      "_app/immutable/assets/Heading.OWjTzpTy.css"
+    ],
+    "file": "chunks/Heading.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_News.js": {
+    "file": "chunks/News.js",
+    "imports": [
+      "_ssr.js",
+      "_stores.js",
+      "_04.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "imports": [
+      "_prod-ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_prod-ssr.js": {
+    "file": "chunks/prod-ssr.js"
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "imports": [
+      "_ssr.js",
+      "_exports.js"
+    ]
+  },
+  "_swiper-bundle.js": {
+    "file": "_app/immutable/assets/swiper-bundle.0IC2KAeW.css",
+    "src": "_swiper-bundle.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_prod-ssr.js",
+      "_internal.js",
+      "_exports.js",
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/lib/images/footer/footer-01.png": {
+    "file": "_app/immutable/assets/footer-01.eFhtYdPP.png",
+    "src": "src/lib/images/footer/footer-01.png"
+  },
+  "src/lib/images/footer/footer-02.png": {
+    "file": "_app/immutable/assets/footer-02.mvwEXkvw.png",
+    "src": "src/lib/images/footer/footer-02.png"
+  },
+  "src/lib/images/footer/footer-04.png": {
+    "file": "_app/immutable/assets/footer-04.aLCq4X8Y.png",
+    "src": "src/lib/images/footer/footer-04.png"
+  },
+  "src/lib/images/footer/footer-05.png": {
+    "file": "_app/immutable/assets/footer-05.34265gyd.png",
+    "src": "src/lib/images/footer/footer-05.png"
+  },
+  "src/lib/images/footer/footer-06.png": {
+    "file": "_app/immutable/assets/footer-06.2_Mk7Qhk.png",
+    "src": "src/lib/images/footer/footer-06.png"
+  },
+  "src/lib/images/footer/footer-07.png": {
+    "file": "_app/immutable/assets/footer-07.tz_Xmsnr.png",
+    "src": "src/lib/images/footer/footer-07.png"
+  },
+  "src/lib/images/footer/footer-08.png": {
+    "file": "_app/immutable/assets/footer-08.olvpPeE0.png",
+    "src": "src/lib/images/footer/footer-08.png"
+  },
+  "src/lib/images/home/about-bg.jpg": {
+    "file": "_app/immutable/assets/about-bg.mf9XFkJF.jpg",
+    "src": "src/lib/images/home/about-bg.jpg"
+  },
+  "src/lib/images/home/carousel-01.jpg": {
+    "file": "_app/immutable/assets/carousel-01.TlH667fa.jpg",
+    "src": "src/lib/images/home/carousel-01.jpg"
+  },
+  "src/lib/images/home/carousel-02.jpg": {
+    "file": "_app/immutable/assets/carousel-02.ZqA7lqwH.jpg",
+    "src": "src/lib/images/home/carousel-02.jpg"
+  },
+  "src/lib/images/home/carousel-03.jpg": {
+    "file": "_app/immutable/assets/carousel-03.GX3lZMEw.jpg",
+    "src": "src/lib/images/home/carousel-03.jpg"
+  },
+  "src/lib/images/home/carousel-04.jpg": {
+    "file": "_app/immutable/assets/carousel-04.h-lF8Ptd.jpg",
+    "src": "src/lib/images/home/carousel-04.jpg"
+  },
+  "src/lib/images/home/directions.jpg": {
+    "file": "_app/immutable/assets/directions.NBzuSL8J.jpg",
+    "src": "src/lib/images/home/directions.jpg"
+  },
+  "src/lib/images/home/home-bg.jpg": {
+    "file": "_app/immutable/assets/home-bg.8PsWE86n.jpg",
+    "src": "src/lib/images/home/home-bg.jpg"
+  },
+  "src/lib/images/home/partners-01.jpg": {
+    "file": "_app/immutable/assets/partners-01.OBRUvOot.jpg",
+    "src": "src/lib/images/home/partners-01.jpg"
+  },
+  "src/lib/images/home/partners-02.jpg": {
+    "file": "_app/immutable/assets/partners-02.KxEi8YOG.jpg",
+    "src": "src/lib/images/home/partners-02.jpg"
+  },
+  "src/lib/images/home/partners-03.jpg": {
+    "file": "_app/immutable/assets/partners-03.PkZKrf9W.jpg",
+    "src": "src/lib/images/home/partners-03.jpg"
+  },
+  "src/lib/images/home/partners-04.jpg": {
+    "file": "_app/immutable/assets/partners-04.Vp_r_Vfg.jpg",
+    "src": "src/lib/images/home/partners-04.jpg"
+  },
+  "src/lib/images/home/partners-05.jpg": {
+    "file": "_app/immutable/assets/partners-05.XLsaNIC4.jpg",
+    "src": "src/lib/images/home/partners-05.jpg"
+  },
+  "src/lib/images/home/partners-06.jpg": {
+    "file": "_app/immutable/assets/partners-06.jZdm5YfF.jpg",
+    "src": "src/lib/images/home/partners-06.jpg"
+  },
+  "src/lib/images/home/partners-07.jpg": {
+    "file": "_app/immutable/assets/partners-07.P99fyYYy.jpg",
+    "src": "src/lib/images/home/partners-07.jpg"
+  },
+  "src/lib/images/news/01.png": {
+    "file": "_app/immutable/assets/01.K3-VJT3G.png",
+    "src": "src/lib/images/news/01.png"
+  },
+  "src/lib/images/news/02.png": {
+    "file": "_app/immutable/assets/02.tViyAXrg.png",
+    "src": "src/lib/images/news/02.png"
+  },
+  "src/lib/images/news/03.png": {
+    "file": "_app/immutable/assets/03.kek0pp1P.png",
+    "src": "src/lib/images/news/03.png"
+  },
+  "src/lib/images/news/04.png": {
+    "file": "_app/immutable/assets/04.1dUevm22.png",
+    "src": "src/lib/images/news/04.png"
+  },
+  "src/lib/images/pages/kursy/bg.jpg": {
+    "file": "_app/immutable/assets/bg.qg-NGZix.jpg",
+    "src": "src/lib/images/pages/kursy/bg.jpg"
+  },
+  "src/lib/images/pages/materialno-tekhnicheskoye-obespecheniye/01.jpg": {
+    "file": "_app/immutable/assets/01.98mRwhBW.jpg",
+    "src": "src/lib/images/pages/materialno-tekhnicheskoye-obespecheniye/01.jpg"
+  },
+  "src/lib/images/pages/obrazovatelnaya-sreda/bg.png": {
+    "file": "_app/immutable/assets/bg.QWfANHSr.png",
+    "src": "src/lib/images/pages/pitaniya/bg.png"
+  },
+  "src/lib/images/pages/obshchezhitiye/01.jpg": {
+    "file": "_app/immutable/assets/01.9TJpg0wq.jpg",
+    "src": "src/lib/images/pages/obshchezhitiye/01.jpg"
+  },
+  "src/lib/images/pages/osnovnyye-svedeniya/01.png": {
+    "file": "_app/immutable/assets/01.1gPXs1wJ.png",
+    "src": "src/lib/images/pages/osnovnyye-svedeniya/01.png"
+  },
+  "src/lib/images/pages/osnovnyye-svedeniya/02.png": {
+    "file": "_app/immutable/assets/02.mdrUbrOL.png",
+    "src": "src/lib/images/pages/osnovnyye-svedeniya/02.png"
+  },
+  "src/lib/images/pages/osnovnyye-svedeniya/03.png": {
+    "file": "_app/immutable/assets/03.J_h62NdU.png",
+    "src": "src/lib/images/pages/osnovnyye-svedeniya/03.png"
+  },
+  "src/lib/images/pages/osnovnyye-svedeniya/04.png": {
+    "file": "_app/immutable/assets/04.2h06rHu5.png",
+    "src": "src/lib/images/pages/osnovnyye-svedeniya/04.png"
+  },
+  "src/lib/images/pages/osnovnyye-svedeniya/05.png": {
+    "file": "_app/immutable/assets/05.SqqrUhfn.png",
+    "src": "src/lib/images/pages/osnovnyye-svedeniya/05.png"
+  },
+  "src/lib/images/pages/pitaniya/bg.png": {
+    "file": "_app/immutable/assets/bg.QWfANHSr.png",
+    "src": "src/lib/images/pages/pitaniya/bg.png"
+  },
+  "src/lib/images/pages/rukovodstvo/01.png": {
+    "file": "_app/immutable/assets/01.J7G_C4qn.png",
+    "src": "src/lib/images/pages/rukovodstvo/01.png"
+  },
+  "src/routes/+layout.svelte": {
+    "assets": [
+      "_app/immutable/assets/footer-01.eFhtYdPP.png",
+      "_app/immutable/assets/footer-02.mvwEXkvw.png",
+      "_app/immutable/assets/footer-04.aLCq4X8Y.png",
+      "_app/immutable/assets/footer-05.34265gyd.png",
+      "_app/immutable/assets/footer-06.2_Mk7Qhk.png",
+      "_app/immutable/assets/footer-07.tz_Xmsnr.png",
+      "_app/immutable/assets/footer-08.olvpPeE0.png",
+      "_app/immutable/assets/about-bg.mf9XFkJF.jpg",
+      "_app/immutable/assets/01.J7G_C4qn.png",
+      "_app/immutable/assets/bg.qg-NGZix.jpg"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.BeBjP2TI.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/partners-01.OBRUvOot.jpg",
+      "_app/immutable/assets/partners-02.KxEi8YOG.jpg",
+      "_app/immutable/assets/partners-03.PkZKrf9W.jpg",
+      "_app/immutable/assets/partners-04.Vp_r_Vfg.jpg",
+      "_app/immutable/assets/partners-05.XLsaNIC4.jpg",
+      "_app/immutable/assets/partners-06.jZdm5YfF.jpg",
+      "_app/immutable/assets/partners-07.P99fyYYy.jpg",
+      "_app/immutable/assets/directions.NBzuSL8J.jpg",
+      "_app/immutable/assets/carousel-01.TlH667fa.jpg",
+      "_app/immutable/assets/carousel-02.ZqA7lqwH.jpg",
+      "_app/immutable/assets/carousel-03.GX3lZMEw.jpg",
+      "_app/immutable/assets/carousel-04.h-lF8Ptd.jpg",
+      "_app/immutable/assets/home-bg.8PsWE86n.jpg"
+    ],
+    "css": [
+      "_app/immutable/assets/swiper-bundle.0IC2KAeW.css"
+    ],
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_News.js",
+      "_Contact.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/+page.ts": {
+    "file": "entries/pages/_page.ts.js",
+    "isEntry": true,
+    "src": "src/routes/+page.ts"
+  },
+  "src/routes/archive/+page.svelte": {
+    "file": "entries/pages/archive/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/archive/+page.svelte"
+  },
+  "src/routes/archive/+page.ts": {
+    "file": "entries/pages/archive/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/archive/+page.ts"
+  },
+  "src/routes/dokumenty/+page.svelte": {
+    "file": "entries/pages/dokumenty/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js",
+      "_Document.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/dokumenty/+page.svelte"
+  },
+  "src/routes/dokumenty/+page.ts": {
+    "file": "entries/pages/dokumenty/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/dokumenty/+page.ts"
+  },
+  "src/routes/dostupnaya-sreda/+page.svelte": {
+    "file": "entries/pages/dostupnaya-sreda/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/dostupnaya-sreda/+page.svelte"
+  },
+  "src/routes/dostupnaya-sreda/+page.ts": {
+    "file": "entries/pages/dostupnaya-sreda/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/dostupnaya-sreda/+page.ts"
+  },
+  "src/routes/finansovo-khozyaystvennaya/+page.svelte": {
+    "file": "entries/pages/finansovo-khozyaystvennaya/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/finansovo-khozyaystvennaya/+page.svelte"
+  },
+  "src/routes/finansovo-khozyaystvennaya/+page.ts": {
+    "file": "entries/pages/finansovo-khozyaystvennaya/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/finansovo-khozyaystvennaya/+page.ts"
+  },
+  "src/routes/kursy/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/swiper-bundle.0IC2KAeW.css"
+    ],
+    "file": "entries/pages/kursy/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/kursy/+page.svelte"
+  },
+  "src/routes/kursy/+page.ts": {
+    "file": "entries/pages/kursy/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/kursy/+page.ts"
+  },
+  "src/routes/materialno-tekhnicheskoye-obespecheniye/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/01.98mRwhBW.jpg"
+    ],
+    "file": "entries/pages/materialno-tekhnicheskoye-obespecheniye/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/materialno-tekhnicheskoye-obespecheniye/+page.svelte"
+  },
+  "src/routes/materialno-tekhnicheskoye-obespecheniye/+page.ts": {
+    "file": "entries/pages/materialno-tekhnicheskoye-obespecheniye/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/materialno-tekhnicheskoye-obespecheniye/+page.ts"
+  },
+  "src/routes/mesta-dlya-priyema/+page.svelte": {
+    "file": "entries/pages/mesta-dlya-priyema/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/mesta-dlya-priyema/+page.svelte"
+  },
+  "src/routes/mesta-dlya-priyema/+page.ts": {
+    "file": "entries/pages/mesta-dlya-priyema/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/mesta-dlya-priyema/+page.ts"
+  },
+  "src/routes/mezhdunarodnoye-sotrudnichestvo/+page.svelte": {
+    "file": "entries/pages/mezhdunarodnoye-sotrudnichestvo/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/mezhdunarodnoye-sotrudnichestvo/+page.svelte"
+  },
+  "src/routes/mezhdunarodnoye-sotrudnichestvo/+page.ts": {
+    "file": "entries/pages/mezhdunarodnoye-sotrudnichestvo/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/mezhdunarodnoye-sotrudnichestvo/+page.ts"
+  },
+  "src/routes/novosty/+page.svelte": {
+    "file": "entries/pages/novosty/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js",
+      "_04.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/novosty/+page.svelte"
+  },
+  "src/routes/novosty/+page.ts": {
+    "file": "entries/pages/novosty/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/novosty/+page.ts"
+  },
+  "src/routes/obrazovaniye/+page.svelte": {
+    "file": "entries/pages/obrazovaniye/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js",
+      "_Document.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/obrazovaniye/+page.svelte"
+  },
+  "src/routes/obrazovaniye/+page.ts": {
+    "file": "entries/pages/obrazovaniye/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/obrazovaniye/+page.ts"
+  },
+  "src/routes/obrazovatelnaya-sreda/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/bg.QWfANHSr.png"
+    ],
+    "file": "entries/pages/obrazovatelnaya-sreda/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/obrazovatelnaya-sreda/+page.svelte"
+  },
+  "src/routes/obrazovatelnaya-sreda/+page.ts": {
+    "file": "entries/pages/obrazovatelnaya-sreda/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/obrazovatelnaya-sreda/+page.ts"
+  },
+  "src/routes/obrazovatelnyye-programmy/+page.svelte": {
+    "file": "entries/pages/obrazovatelnyye-programmy/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/obrazovatelnyye-programmy/+page.svelte"
+  },
+  "src/routes/obrazovatelnyye-programmy/+page.ts": {
+    "file": "entries/pages/obrazovatelnyye-programmy/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/obrazovatelnyye-programmy/+page.ts"
+  },
+  "src/routes/obshchezhitiye/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/01.9TJpg0wq.jpg"
+    ],
+    "file": "entries/pages/obshchezhitiye/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/obshchezhitiye/+page.svelte"
+  },
+  "src/routes/obshchezhitiye/+page.ts": {
+    "file": "entries/pages/obshchezhitiye/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/obshchezhitiye/+page.ts"
+  },
+  "src/routes/obucheniye/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/swiper-bundle.0IC2KAeW.css"
+    ],
+    "file": "entries/pages/obucheniye/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/obucheniye/+page.svelte"
+  },
+  "src/routes/obucheniye/+page.ts": {
+    "file": "entries/pages/obucheniye/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/obucheniye/+page.ts"
+  },
+  "src/routes/osnovnyye-svedeniya/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/01.1gPXs1wJ.png",
+      "_app/immutable/assets/02.mdrUbrOL.png",
+      "_app/immutable/assets/03.J_h62NdU.png",
+      "_app/immutable/assets/04.2h06rHu5.png",
+      "_app/immutable/assets/05.SqqrUhfn.png"
+    ],
+    "css": [
+      "_app/immutable/assets/swiper-bundle.0IC2KAeW.css"
+    ],
+    "file": "entries/pages/osnovnyye-svedeniya/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js",
+      "_News.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/osnovnyye-svedeniya/+page.svelte"
+  },
+  "src/routes/osnovnyye-svedeniya/+page.ts": {
+    "file": "entries/pages/osnovnyye-svedeniya/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/osnovnyye-svedeniya/+page.ts"
+  },
+  "src/routes/partnerstvo/+page.svelte": {
+    "file": "entries/pages/partnerstvo/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/partnerstvo/+page.svelte"
+  },
+  "src/routes/partnerstvo/+page.ts": {
+    "file": "entries/pages/partnerstvo/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/partnerstvo/+page.ts"
+  },
+  "src/routes/pitaniya/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/bg.QWfANHSr.png"
+    ],
+    "file": "entries/pages/pitaniya/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js",
+      "_Contact.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/pitaniya/+page.svelte"
+  },
+  "src/routes/pitaniya/+page.ts": {
+    "file": "entries/pages/pitaniya/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/pitaniya/+page.ts"
+  },
+  "src/routes/pravila-priyoma/+page.svelte": {
+    "file": "entries/pages/pravila-priyoma/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/pravila-priyoma/+page.svelte"
+  },
+  "src/routes/pravila-priyoma/+page.ts": {
+    "file": "entries/pages/pravila-priyoma/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/pravila-priyoma/+page.ts"
+  },
+  "src/routes/prikazy-o-zachislenii/+page.svelte": {
+    "file": "entries/pages/prikazy-o-zachislenii/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js",
+      "_Document.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/prikazy-o-zachislenii/+page.svelte"
+  },
+  "src/routes/prikazy-o-zachislenii/+page.ts": {
+    "file": "entries/pages/prikazy-o-zachislenii/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/prikazy-o-zachislenii/+page.ts"
+  },
+  "src/routes/professiya/+page.svelte": {
+    "file": "entries/pages/professiya/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/professiya/+page.svelte"
+  },
+  "src/routes/professiya/+page.ts": {
+    "file": "entries/pages/professiya/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/professiya/+page.ts"
+  },
+  "src/routes/proforiyentatsiya/+page.svelte": {
+    "file": "entries/pages/proforiyentatsiya/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/proforiyentatsiya/+page.svelte"
+  },
+  "src/routes/proforiyentatsiya/+page.ts": {
+    "file": "entries/pages/proforiyentatsiya/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/proforiyentatsiya/+page.ts"
+  },
+  "src/routes/raspisaniye/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/swiper-bundle.0IC2KAeW.css"
+    ],
+    "file": "entries/pages/raspisaniye/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/raspisaniye/+page.svelte"
+  },
+  "src/routes/raspisaniye/+page.ts": {
+    "file": "entries/pages/raspisaniye/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/raspisaniye/+page.ts"
+  },
+  "src/routes/reytingovyy-spisok/+page.svelte": {
+    "file": "entries/pages/reytingovyy-spisok/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/reytingovyy-spisok/+page.svelte"
+  },
+  "src/routes/reytingovyy-spisok/+page.ts": {
+    "file": "entries/pages/reytingovyy-spisok/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/reytingovyy-spisok/+page.ts"
+  },
+  "src/routes/rukovodstvo/+page.svelte": {
+    "file": "entries/pages/rukovodstvo/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/rukovodstvo/+page.svelte"
+  },
+  "src/routes/rukovodstvo/+page.ts": {
+    "file": "entries/pages/rukovodstvo/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/rukovodstvo/+page.ts"
+  },
+  "src/routes/sotsialnoye-obespecheniye/+page.svelte": {
+    "file": "entries/pages/sotsialnoye-obespecheniye/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/sotsialnoye-obespecheniye/+page.svelte"
+  },
+  "src/routes/sotsialnoye-obespecheniye/+page.ts": {
+    "file": "entries/pages/sotsialnoye-obespecheniye/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/sotsialnoye-obespecheniye/+page.ts"
+  },
+  "src/routes/stipendiya/+page.svelte": {
+    "file": "entries/pages/stipendiya/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/stipendiya/+page.svelte"
+  },
+  "src/routes/stipendiya/+page.ts": {
+    "file": "entries/pages/stipendiya/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/stipendiya/+page.ts"
+  },
+  "src/routes/struktura-i-organy/+page.svelte": {
+    "file": "entries/pages/struktura-i-organy/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/struktura-i-organy/+page.svelte"
+  },
+  "src/routes/struktura-i-organy/+page.ts": {
+    "file": "entries/pages/struktura-i-organy/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/struktura-i-organy/+page.ts"
+  },
+  "src/routes/studencheskaya-zhizn/+page.svelte": {
+    "file": "entries/pages/studencheskaya-zhizn/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/studencheskaya-zhizn/+page.svelte"
+  },
+  "src/routes/studencheskaya-zhizn/+page.ts": {
+    "file": "entries/pages/studencheskaya-zhizn/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/studencheskaya-zhizn/+page.ts"
+  },
+  "src/routes/trudoustroystvo/+page.svelte": {
+    "file": "entries/pages/trudoustroystvo/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/trudoustroystvo/+page.svelte"
+  },
+  "src/routes/trudoustroystvo/+page.ts": {
+    "file": "entries/pages/trudoustroystvo/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/trudoustroystvo/+page.ts"
+  },
+  "src/routes/tselevoye-obucheniye/+page.svelte": {
+    "file": "entries/pages/tselevoye-obucheniye/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Heading.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/tselevoye-obucheniye/+page.svelte"
+  },
+  "src/routes/tselevoye-obucheniye/+page.ts": {
+    "file": "entries/pages/tselevoye-obucheniye/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/tselevoye-obucheniye/+page.ts"
+  }
+}

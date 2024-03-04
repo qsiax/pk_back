@@ -1,0 +1,115 @@
+{
+	"/": [],
+	"/admin": [
+		"src/routes/admin/+page.server.js"
+	],
+	"/archive": [
+		"src/routes/archive/+page.ts"
+	],
+	"/doc": [
+		"src/routes/doc/+page.server.js"
+	],
+	"/dokumenty": [
+		"src/routes/dokumenty/+page.server.js"
+	],
+	"/dostupnaya-sreda": [
+		"src/routes/dostupnaya-sreda/+page.ts"
+	],
+	"/finansovo-khozyaystvennaya": [
+		"src/routes/finansovo-khozyaystvennaya/+page.server.js"
+	],
+	"/group": [
+		"src/routes/group/+page.server.js"
+	],
+	"/kursy": [
+		"src/routes/kursy/+page.ts"
+	],
+	"/login": [
+		"src/routes/login/+page.server.js"
+	],
+	"/materialno-tekhnicheskoye-obespecheniye": [
+		"src/routes/materialno-tekhnicheskoye-obespecheniye/+page.server.js"
+	],
+	"/mesta-dlya-priyema": [
+		"src/routes/mesta-dlya-priyema/+page.ts"
+	],
+	"/mezhdunarodnoye-sotrudnichestvo": [
+		"src/routes/mezhdunarodnoye-sotrudnichestvo/+page.ts"
+	],
+	"/novosty": [
+		"src/routes/novosty/+page.ts"
+	],
+	"/obrazovaniye": [
+		"src/routes/obrazovaniye/+page.ts"
+	],
+	"/obrazovatelnaya-sreda": [
+		"src/routes/obrazovatelnaya-sreda/+page.server.js"
+	],
+	"/obrazovatelnyye-programmy": [
+		"src/routes/obrazovatelnyye-programmy/+page.server.js"
+	],
+	"/obshchezhitiye": [
+		"src/routes/obshchezhitiye/+page.ts"
+	],
+	"/obucheniye": [
+		"src/routes/obucheniye/+page.ts"
+	],
+	"/osnovnyye-svedeniya": [
+		"src/routes/osnovnyye-svedeniya/+page.ts"
+	],
+	"/partnerstvo": [
+		"src/routes/partnerstvo/+page.ts"
+	],
+	"/pitaniya": [
+		"src/routes/pitaniya/+page.server.js"
+	],
+	"/post/[id]": [
+		"src/routes/post/[id]/+page.ts",
+		"src/routes/post/[id]/+page.server.ts"
+	],
+	"/pravila-priyoma": [
+		"src/routes/pravila-priyoma/+page.server.js"
+	],
+	"/prikazy-o-zachislenii": [
+		"src/routes/prikazy-o-zachislenii/+page.ts"
+	],
+	"/professiya": [
+		"src/routes/professiya/+page.ts"
+	],
+	"/proforiyentatsiya": [
+		"src/routes/proforiyentatsiya/+page.ts"
+	],
+	"/raspisaniye": [
+		"src/routes/raspisaniye/+page.ts"
+	],
+	"/ras": [
+		"src/routes/ras/+page.server.js"
+	],
+	"/reytingovyy-spisok": [
+		"src/routes/reytingovyy-spisok/+page.ts"
+	],
+	"/rukovodstvo": [
+		"src/routes/rukovodstvo/+page.ts"
+	],
+	"/sotsialnoye-obespecheniye": [
+		"src/routes/sotsialnoye-obespecheniye/+page.ts"
+	],
+	"/stipendiya": [
+		"src/routes/stipendiya/+page.server.js"
+	],
+	"/struktura-i-organy": [
+		"src/routes/struktura-i-organy/+page.ts"
+	],
+	"/studencheskaya-zhizn": [
+		"src/routes/studencheskaya-zhizn/+page.ts"
+	],
+	"/trudoustroystvo": [
+		"src/routes/trudoustroystvo/+page.server.js"
+	],
+	"/tselevoye-obucheniye": [
+		"src/routes/tselevoye-obucheniye/+page.ts"
+	],
+	"/upload": [
+		"src/routes/upload/+page.server.js"
+	]
+}

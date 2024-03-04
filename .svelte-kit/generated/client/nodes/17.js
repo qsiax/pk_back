@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/obrazovatelnaya-sreda/+page.svelte";
