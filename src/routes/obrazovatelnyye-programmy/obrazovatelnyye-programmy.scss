@@ -1,0 +1,168 @@
+.educational {
+
+    &__container {
+        overflow: visible;
+    }
+
+    &__body {
+        margin-bottom: 200px;
+        @media (max-width: $m-point) {
+            margin-bottom: 80px;
+        }
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 75px;
+        line-height: 90%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+    }
+
+    &__content {
+    }
+
+    &__content-title {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: -0.03em;
+        margin-bottom: 40px;
+        @media (max-width: $m-point) {
+            font-size: 32px;
+            line-height: 100%;
+            letter-spacing: -0.96px;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__item-content {
+        @media (max-width: $m-point) {
+            overflow-x: scroll;
+        }
+    }
+
+    &__item-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        @media (max-width: $m-point) {
+            margin-bottom: 5px;
+        }
+        &.document {
+            margin-bottom: 20px;
+            @media (max-width: $m-point) {
+                flex-direction: column;
+            }
+            .educational__item {
+                width: 870px;
+                height: 140px;
+                min-height: 140px;
+                display: flex;
+                justify-content: space-between;
+                padding: 41px 40px;
+                cursor: pointer;
+                transition: .3s ease;
+                margin-bottom: 20px;
+                &:hover {
+                    background: $primary-color;
+                    color: $main-color;
+                    border-color: $primary-color;
+                    .educational__item-icon {
+                        color: $main-color;
+                    }
+                }
+                .educational__item-icon {
+                    margin-top: 5px;
+                    font-size: 48px;
+                    color: $primary-color;
+                    transition: .5s ease;
+                    @media (max-width: $m-point) {
+                        font-size: 32px;
+                        margin-top: 0;
+                    }
+                }
+                .educational__item-title {
+                    max-width: 700px;
+                }
+                @media (max-width: $m-point) {
+                    width: 100%;
+                    height: auto;
+                    padding: 20px;
+                    border-radius: 10px;
+                    margin-bottom: 10px;
+                    align-items: center;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        &:first-child {
+            .educational__item {
+                width: 234px;
+                height: 110px;
+                display: flex;
+                align-items: center;
+                padding: 0;
+                padding-left: 20px;
+                .educational__item-title {
+                    color: $text-secondary;
+                    max-width: 172px;
+                }
+                @media (max-width: $m-point) {
+                    width: 100%;
+                    height: 35px;
+                    padding-left: 10px;
+                    padding-top: 0px;
+                }
+            }
+        }
+        &:nth-child(2) {
+            .educational__item {
+                height: 165px;
+                @media (max-width: $m-point) {
+                    height: 75px;
+                }
+            }
+        }
+        &:last-child {
+            @media (max-width: $m-point) {
+            margin-bottom: 15px;   
+            }
+        }
+    }
+
+    &__item {
+        width: 234px;
+        height: 255px;
+        border-radius: 20px;
+        border: 1px solid $text-secondary;
+        padding-left: 20px;
+        padding-top: 40px;
+        @media (max-width: $m-point) {
+            min-width: 103px;
+            height: 75px;
+            border: 0.257px solid $text-secondary;
+            padding-left: 10px;
+            padding-top: 5px;
+            border-radius: 5px;
+            margin-right: 5px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__item-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.03em;
+        @media (max-width: $m-point) {
+            font-size: 10px;
+        }
+    }
+}

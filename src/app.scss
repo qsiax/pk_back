@@ -1,0 +1,53 @@
+@import 'main';
+
+@import 'layout/header.scss';
+@import 'layout/footer.scss';
+@import 'layout/home.scss';
+
+// ГЛАВНАЯ
+@import 'routes/osnovnyye-svedeniya/osnovnyye-svedeniya.scss';
+@import 'routes/dokumenty/dokumenty.scss';
+@import 'routes/obrazovaniye/obrazovaniye.scss';
+@import 'routes/rukovodstvo/rukovodstvo.scss';
+@import 'routes/materialno-tekhnicheskoye-obespecheniye/materialno-tekhnicheskoye-obespecheniye.scss';
+@import 'routes/stipendiya/stipendiya.scss';
+@import 'routes/kursy/kursy.scss';
+@import 'routes/finansovo-khozyaystvennaya/finansovo-khozyaystvennaya.scss';
+@import 'routes/mesta-dlya-priyema/mesta-dlya-priyema.scss';
+@import 'routes/dostupnaya-sreda/dostupnaya-sreda.scss';
+@import 'routes/mezhdunarodnoye-sotrudnichestvo/mezhdunarodnoye-sotrudnichestvo.scss';
+@import 'routes/obrazovatelnyye-programmy/obrazovatelnyye-programmy.scss';
+@import 'routes/pitaniya/pitaniya.scss';
+@import 'routes/obrazovatelnaya-sreda/obrazovatelnaya-sreda.scss';
+@import 'routes/partnerstvo/partnerstvo.scss';
+
+//АБИТУРИЕНТУ
+@import 'routes/pravila-priyoma/pravila-priyoma.scss';
+@import 'routes/professiya/professiya.scss';
+@import 'routes/prikazy-o-zachislenii/prikazy-o-zachislenii.scss';
+@import 'routes/tselevoye-obucheniye/tselevoye-obucheniye.scss';
+@import 'routes/reytingovyy-spisok/reytingovyy-spisok.scss';
+
+//СТУДЕНТУ
+@import 'routes/obucheniye/obucheniye.scss';
+@import 'routes/raspisaniye/raspisaniye.scss';
+@import 'routes/obshchezhitiye/obshchezhitiye.scss';
+@import 'routes/studencheskaya-zhizn/studencheskaya-zhizn.scss';
+@import 'routes//sotsialnoye-obespecheniye//sotsialnoye-obespecheniye.scss';
+
+//ВЫПУСКНИКУ
+@import 'routes/trudoustroystvo/trudoustroystvo.scss';
+@import 'routes/proforiyentatsiya/proforiyentatsiya.scss';
+
+//НОВОСТИ
+@import 'routes/novosty/novosty.scss';
+
+//АРХИВ
+@import 'routes/archive/archive.scss';
+
+//АДМИН
+@import 'routes/components/table.scss';
+@import 'routes/components/dialog.scss';
+@import 'routes/login/login.scss';
+@import 'routes/post/[id]/edit.scss';
+@import 'routes/doc/doc.scss';

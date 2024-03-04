@@ -1,0 +1,140 @@
+.dialog {
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    background-color: rgba($color: #000000, $alpha: .2);
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s ease;
+    &.active {
+        visibility: visible;
+        opacity: 1;
+        pointer-events: all;
+    }
+    &__content {
+        padding: 40px;
+        background: $main-color;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        select {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 580px;
+            height: 85px;
+            background: $main-color;
+            border-radius: 15px;
+            border: 1px solid $text-secondary;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            font-size: 24px;
+        }
+    }
+
+    &__heading {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 90%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        color: $text;
+        margin-bottom: 40px;
+    }
+
+    &__input {
+        width: 580px;
+        height: 85px;
+        background: $main-color;
+        border-radius: 15px;
+        border: 1px solid $text-secondary;
+        margin-bottom: 10px;
+        padding-left: 15px;
+        font-size: 24px;
+        &::placeholder {
+            font-size: 24px;
+            opacity: .5;
+        }
+    }
+
+    &__message {
+        width: 580px;
+        height: 85px;
+        background: $main-color;
+        border-radius: 15px;
+        border: 1px solid $text-secondary;
+        padding: 24px 15px;
+        font-size: 24px;
+        margin-bottom: 100px;
+        &::placeholder {
+            font-size: 24px;
+            opacity: .5;
+        }
+    }
+
+    &__btn-wrapper {
+        display: flex;
+    }
+
+    &__btn {
+        display: flex;
+        width: 100%;
+        background: $text;
+        color: $main-color;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 150%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        padding: 15.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        cursor: pointer;
+        user-select: none;
+        transition: .3s ease;
+        &:hover {
+            .dialog__btn-arrow {
+                transform: rotate(-90deg) translateY(8px);
+            }
+        }
+    }
+
+    &__btn-arrow {
+        margin-left: 5px;
+        font-size: 18px;
+        transform: rotate(-90deg);
+        user-select: none;
+        transition: .3s ease;
+    }
+
+    &__btn-close {
+        color: $main-color;
+        background: $text;
+        font-size: 24px;
+        padding: 18px;
+        border-radius: 15px;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: .3s ease;
+        &:hover {
+            transform: scale(0.97);
+            .dialog__btn-close-icon {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    &__btn-close-icon {
+        transition: .3s ease;
+    }
+}

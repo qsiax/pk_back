@@ -1,0 +1,74 @@
+{
+  "posts": [
+    {
+      "id": "1cd4",
+      "title": "Новости КЦТ АЙТЫЫН",
+      "content": " Новости КЦТ АЙТЫЫННовости КЦТ АЙТЫЫННовости КЦТ АЙТЫЫНasd asd asd asdasНовости КЦТ АЙТЫЫННовости КЦТ АЙТЫЫННовости КЦТ АЙТЫЫНasd asd asd asdasНовости КЦТ АЙТЫЫННовости КЦТ АЙТЫЫННовости КЦТ АЙТЫЫНasd asd asd asdas",
+      "date": "21-02-2024",
+      "url": "data:image/png;base64,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",
+      "category": "college"
+    },
+    {
+      "id": "fce6",
+      "title": "Диалог на равных 123123",
+      "content": "Сегодня, в рамках «Месячника профориентации и трудоустройства», в нашем колледже прошло мероприятие \"Диалог на равных\". Целью данного мероприятия является привлечение работодателей для взаимодействия с нашими выпускниками.\n\nНа встрече присутствовали следующие гости:\n- Третьяков Алексей Алексеевич – руководитель ЦЗН Хангаласского улуса;\n- Лыткин Сергей Николаевич - начальник Департамента цифрового развития городского округа \"город Якутск;\n- Христофорова Алёна Валерьевна - руководитель дирекции карьеры и аналитики АНО ДПО «ЦОПП» РС(Я);\n- Данилов Алексей Павлович - Специалист кафедры профессионального воспитания и социальной активности молодежи ГАУ ДПО РС(Я) ИРПО;\n- Адамова Ираида Иннокентьевна – директор МБУК «Хангаласская МЦБС»;\n- Ефимова Ариадна Михайловна – заместитель директора НП «Ленские Столбы»;\n- Васильев Андрей Афанасьевич – генеральный директор ОАО \"Дельта Лайн \";\n- Лебедев Александр Михайлович – руководитель IT – центра;\n- Константинов Виктор Викторович - председатель комиссии по предпринимательству и туризму.\n\nПрисутствие гостей - работодателей и участие на данном мероприятии было очень важным для наших студентов.\n\nМодератором встречи выступил директор колледжа цифровых технологий \"Айтыын\" Сергей Сысолятин. Сергей Иннокентьевич задал работодателям ряд вопросов по составлению резюме, собеседованию, поиску работы, трудоустройству и многим другим аспектам, которые касаются карьерного роста и развития.\n\n\"Диалог на равных\" стал настоящим источником полезной информации для всех присутствующих, открывая новые горизонты и возможности. Наши студенты получили ценные советы и рекомендации, которые помогут им добиться успеха в своей профессиональной жизни.\n\nДавайте продолжать делиться знаниями и опытом, чтобы помогать друг другу становиться лучше!",
+      "date": "21-02-2024",
+      "url": "https://sun9-71.userapi.com/impf/6fk3osNcHz7SerPY9FIJb--YuRGKOrH8HkEFlQ/7I0kyzmbB6k.jpg?size=453x604&quality=96&sign=e8078fd6bceb7cb61f428d2c7093f9cb&c_uniq_tag=aviEyDuy2xsTQezw5P2QCKq4Hpob17llo4TwGEbe0Ao&type=album",
+      "category": "technology"
+    },
+    {
+      "id": "b2fe",
+      "title": "TETS",
+      "content": "sdaTETS",
+      "date": "21-02-2024",
+      "url": "https://sun9-69.userapi.com/impf/u8XTkSPyDI7tnbEqVvZzlVrMHZ06L11xAThJTQ/QT3rc2m7hFA.jpg?size=807x605&quality=95&sign=0cccd742603213bb2076c73609183daa&c_uniq_tag=9iN0pxjfFseywuog237uLxQgpPBrMfMw1zeRG53VTU8&type=album",
+      "category": "technology"
+    },
+    {
+      "id": "e749",
+      "title": "Военно-патриотический клуб \"ОРИОН\" в финале ",
+      "content": "В Якутске, на базе Якутского технологического техникума сервиса им.Ю.А.Готовцева стартовал финал комплексного интеллектуально-военизированного соревнования «Патриот» среди обучающихся профессиональных образовательных организаций Якутии. ",
+      "date": "24-02-2024",
+      "url": "https://sun9-75.userapi.com/impg/EXk9yXU6JEy_OM3YfcA2lkk1QJ_NnkWms77sYw/OhiSFEtFL30.jpg?size=604x260&quality=95&sign=553053576d3d67efb28666e3193701a1&c_uniq_tag=px3hbfhIoNHHrChV7VAtGeVYRsN-78HAlg7zvVR4oQs&type=album"
+    },
+    {
+      "id": "8da0",
+      "title": " удивительная встреча!",
+      "content": "Вместе с Афанасием Семеновичем мы погрузились в историю парламентаризма Якутии и государственного устройства Российской Федерации. Это была уникальная возможность узнать больше о значимых событиях, которые сформировали современное политическое и культурное наследие нашего региона.",
+      "date": "24-02-2024",
+      "url": "https://sun100-2.userapi.com/impg/P7VEOfDSMEKZ6kvYXj9G45jK74fliBw-aocjoA/SwVeowjoD1Q.jpg?size=864x1152&quality=95&sign=0bd7c54ac5a1aee6d775e45977d88875&type=album"
+    },
+    {
+      "id": "fd4a",
+      "title": "asd",
+      "content": "asdasdas",
+      "date": "24-02-2024",
+      "url": "",
+      "category": "college"
+    },
+    {
+      "id": "2c3d",
+      "title": "sadasd",
+      "content": "dasdas",
+      "date": "24-02-2024",
+      "url": "",
+      "category": "technology"
+    },
+    {
+      "id": "e505",
+      "title": "Колледж",
+      "content": "авыаыва",
+      "date": "05-03-2024",
+      "url": "",
+      "category": "college"
+    },
+    {
+      "id": "5fb0",
+      "title": "asd",
+      "content": "123123",
+      "date": "05-03-2024",
+      "url": "",
+      "category": "technology"
+    }
+  ]
+}

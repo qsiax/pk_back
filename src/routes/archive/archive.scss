@@ -1,0 +1,114 @@
+.archive {
+
+    &__container {
+    }
+
+    &__body {
+        margin-bottom: 180px;
+    }
+
+    &__head {
+        margin-bottom: 40px;
+    }
+
+    &__heading {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: -1.5px;
+    }
+
+    &__content {
+    }
+
+    &__content-title {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: -0.72px;
+        color: $primary-color;
+        margin-bottom: 40px;
+    }
+
+    &__item-body {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item-wrapper {
+
+    }
+
+    &__item {
+        width: 870px;
+        padding: 19.5px 40px 20.5px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 20px;
+        border: 1px solid $text-secondary;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: .3s ease;
+        &:last-child {
+            margin-bottom: 40px;
+        }
+        &:hover {
+            background: $primary-color;
+            border-color: $primary-color;
+            & {
+                color: $main-color;
+            }
+        }
+    }
+
+    &__item-title {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: -1.5px;
+    }
+
+    &__item-arrow {
+        font-size: 48px;
+        transform: rotate(-90deg);
+    }
+
+    &__spoiler {
+        width: 870px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 15px 0px rgba(83, 126, 231, 0.25);
+        height: 0;
+        padding: 40px;
+        overflow: hidden;
+        border: 0;
+        transition: .3s ease;
+        &.spoilerActive {
+            height: auto;
+            border: 1px solid $text-secondary;
+        }
+    }
+
+    &__spoiler-item {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin-bottom: 32px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__spoiler-item-title {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: -0.72px;
+    }
+
+    &__spoiler-item-download {
+        font-size: 48px;
+        color: $primary-color;
+    }
+}
