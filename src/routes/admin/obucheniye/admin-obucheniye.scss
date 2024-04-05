@@ -1,0 +1,1157 @@
+.admin-obucheniye {
+
+    &__container {
+    }
+
+    &__body {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    &__heading {
+        font-weight: 500;
+        font-size: 75px;
+        line-height: 90%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+        white-space: pre-wrap;
+    }
+
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        position: relative;
+    }
+
+    &__head-wrapper {
+        display: flex;
+    }
+
+    &__head-item {
+        padding: 19.5px 40px;
+        border-radius: 20px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        border: 1px solid $text-secondary;
+        margin-right: 20px;
+        transition: .3s ease;
+        cursor: pointer;
+        user-select: none;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            background: $primary-color;
+            border-color: $primary-color;
+            color: $main-color;
+        }
+        &.active {
+            background: $primary-color;
+            border-color: $primary-color;
+            color: $main-color;
+        }
+    }
+
+    &__head-popup {
+        position: absolute;
+        right: 0;
+        bottom: -280%;
+        border-radius: 25px;
+        background: $main-color;
+        border: 1px solid $text-secondary;
+        z-index: 1;
+        &.edit {
+            right: 13%;
+        }
+    }
+
+    &__head-popup-item {
+        padding: 14.5px 40px;
+        border-radius: 20px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: -0.03em;
+        text-align: left;
+        transition: .3s ease;
+        cursor: pointer;
+        &:hover {
+            background: $primary-color;
+            color: $main-color;
+        }
+    }
+
+    &__diplom {
+    }
+
+    &__diplom-content {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    &__diplom-heading {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: -0.03em;
+        margin-bottom: 40px;
+    }
+
+    &__diplom-item {
+        width: 19.1%;
+        height: 300px;
+        border-radius: 20px;
+        padding: 40px;
+        border: 1px solid $text-secondary;
+        margin-bottom: 20px;
+        position: relative;
+        cursor: pointer;
+        margin-right: 1.137%;
+        transition: .3s ease;
+        &:hover {
+            background: $primary-color;
+            border-color: $primary-color;
+            color: $main-color;
+            .admin-obucheniye__diplom-item-icon {
+                color: $main-color;
+                &.icon-close {
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+        input {
+            width: 0.1px;
+            height: 0.1px;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            z-index: -1;
+        }
+        &:nth-child(3) {
+            margin-right: 21.32%;
+        }
+        &:nth-child(4) {
+            margin-right: 0px;
+        }
+        &:nth-child(5), &:nth-child(6) {
+            width: 49.432%;
+        }
+        &:nth-child(6) {
+            margin-right: 0;
+        }
+    }
+
+    &__diplom-item-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.03em;
+    }
+
+    &__diplom-item-icon {
+        font-size: 48px;
+        color: $primary-color;
+        position: absolute;
+        right: 40px;
+        bottom: 40px;
+        transition: .3s ease;
+        &.icon-close {
+            transform: rotate(45deg);
+        }
+    }
+
+    &__sessia-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__sessia-heading {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 100%;
+        letter-spacing: -0.03em;
+        margin-bottom: 40px;
+    }
+
+    &__sessia-item {
+        border-radius: 20px;
+        padding: 40px;
+        height: 300px;
+        width: 573px;
+        border: 1px solid $text-secondary;
+        position: relative;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: .3s ease;
+        margin-right: 20px;
+        &:nth-child(3), &:nth-child(6) {
+            margin-right: 0; 
+        }
+        &:hover {
+            background: $primary-color;
+            border-color: $primary-color;
+            color: $main-color;
+            .admin-obucheniye__sessia-item-icon {
+                color: $main-color;
+            }
+        }
+    }
+
+    &__sessia-item-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+    }
+
+    &__sessia-item-icon {
+        font-size: 48px;
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+        color: $primary-color;
+        transition: .3s ease;
+    }
+
+    &__diplom-list {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba($color: #000000, $alpha: 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 11;
+    }
+
+    &__diplom-list-heading {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 90%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        color: $text;
+        margin-bottom: 40px;
+    }
+
+    &__diplom-list-content {
+        position: relative;
+        padding: 40px;
+        border-radius: 20px;
+        border: 1px solid $text-secondary;
+        background: $main-color;
+        min-width: 1200px;
+    }
+
+    &__diplom-list-wrapper {
+        max-height: 700px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding-right: 10px;
+    }
+
+    &__diplom-list-item {
+        width: 100%;
+        padding: 19.5px 40px;
+        border-radius: 20px;
+        border: 1px solid $text-secondary;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 20px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__diplom-list-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.03em;
+        margin-right: 700px;
+        max-width: 700px;
+    }
+
+    &__diplom-list-btn-wrapper {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: flex;
+        height: 100%;
+        form {
+            &:last-child {
+                input {
+                    width: 0.1px;
+                    height: 0.1px;
+                    opacity: 0;
+                    overflow: hidden;
+                    position: absolute;
+                    z-index: -1;
+                }
+                .admin-obucheniye__diplom-list-btn {
+                    border-top-right-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    &:hover {
+                        background: $error;
+                    }
+                }
+            }
+        }
+    }
+
+    &__diplom-list-btn {
+        height: 100%;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.03em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: .3s ease;
+        &:hover {
+            color: $main-color;
+            background: $primary-color;
+        }
+    }
+
+    &__diplom-list-close {
+        font-size: 40px;
+        color: $text;
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        cursor: pointer;
+        transition: .3s ease;
+        &:hover {
+            color: $primary-color;
+            transform: rotate(-90deg);
+        }
+    }
+
+    &__diplom-add {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba($color: #000000, $alpha: 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 11;
+    }
+
+    &__diplom-add-content {
+        position: relative;
+        padding: 40px;
+        border-radius: 20px;
+        border: 1px solid $text-secondary;
+        background: $main-color;
+        min-width: 900px;
+    }
+
+    &__diplom-add-heading {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 90%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        color: $text;
+        margin-bottom: 40px;
+    }
+
+    &__diplom-form {
+        display: flex;
+        flex-direction: column;
+        input {
+            width: 100%;
+            height: 85px;
+            background: $main-color;
+            border-radius: 15px;
+            border: 1px solid $text-secondary;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            font-size: 24px;
+            &::placeholder {
+                font-size: 24px;
+                opacity: .5;
+            }
+        }
+    }
+
+    &__diplom-add-file-input {
+        input {
+            width: 0.1px;
+            height: 0.1px;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            z-index: -1;
+        }
+        label {
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+            color: $main-color;
+            font-size: 14px;
+            padding: 10px 12px;
+            background-color: $primary-color;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+            svg {
+                height: 16px;
+                margin-right: 4px;
+            }
+        }
+    }
+
+    &__diplom-add-btn-wrapper {
+        display: flex;
+        margin-top: 100px;
+        button {
+            display: flex;
+            width: 100%;
+            background: $text;
+            color: $main-color;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 150%;
+            letter-spacing: -0.03em;
+            text-transform: uppercase;
+            padding: 15.5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            cursor: pointer;
+            user-select: none;
+            transition: .3s ease;
+            &:hover {
+                .admin-obucheniye__diplom-add-btn-icon {
+                    transform: rotate(-90deg) translateY(8px);
+                }
+            }
+        }
+    }
+
+    &__diplom-add-btn-icon {
+        margin-left: 5px;
+        font-size: 18px;
+        transform: rotate(-90deg);
+        user-select: none;
+        transition: .3s ease;
+    }
+
+    &__diplom-add-btn-close {
+        color: $main-color;
+        background: $text;
+        font-size: 24px;
+        padding: 18px;
+        border-radius: 15px;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: .3s ease;
+        &:hover {
+            transform: scale(0.97);
+            .admin-obucheniye__diplom-add-btn-close-icon {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    &__diplom-add-btn-close-icon {
+        transition: .3s ease;
+    }
+
+    &__sessia-list {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba($color: #000000, $alpha: 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 11;
+    }
+
+    &__sessia-list-content {
+        position: relative;
+        padding: 40px;
+        border-radius: 20px;
+        border: 1px solid $text-secondary;
+        background: $main-color;
+        min-width: 1200px;
+    }
+
+    &__sessia-list-heading {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 90%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        color: $text;
+        margin-bottom: 40px;
+    }
+
+    &__sessia-list-wrapper {
+        max-height: 700px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding-right: 10px;
+    }
+
+    &__sessia-list-item {
+        width: 100%;
+        padding: 19.5px 40px;
+        border-radius: 20px;
+        border: 1px solid $text-secondary;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 20px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__sessia-list-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.03em;
+        margin-right: 700px;
+        max-width: 700px;
+    }
+
+    &__sessia-list-btn-wrapper {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: flex;
+        height: 100%;
+        form {
+            &:last-child {
+                input {
+                    width: 0.1px;
+                    height: 0.1px;
+                    opacity: 0;
+                    overflow: hidden;
+                    position: absolute;
+                    z-index: -1;
+                }
+                .admin-obucheniye__sessia-list-btn {
+                    border-top-right-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    &:hover {
+                        background: $error;
+                    }
+                }
+            }
+        }
+    }
+
+    &__sessia-list-btn {
+        height: 100%;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.03em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: .3s ease;
+        &:hover {
+            color: $main-color;
+            background: $primary-color;
+        }
+    }
+
+    &__sessia-list-close {
+        font-size: 40px;
+        color: $text;
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        cursor: pointer;
+        transition: .3s ease;
+        &:hover {
+            color: $primary-color;
+            transform: rotate(-90deg);
+        }
+    }
+
+    
+    &__sessia-add {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba($color: #000000, $alpha: 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 11;
+    }
+
+    &__sessia-add-content {
+        position: relative;
+        padding: 40px;
+        border-radius: 20px;
+        border: 1px solid $text-secondary;
+        background: $main-color;
+        min-width: 900px;
+        form {
+            display: flex;
+            flex-direction: column;
+            input {
+                width: 100%;
+                height: 85px;
+                background: $main-color;
+                border-radius: 15px;
+                border: 1px solid $text-secondary;
+                margin-bottom: 10px;
+                padding-left: 15px;
+                font-size: 24px;
+                &::placeholder {
+                    font-size: 24px;
+                    opacity: .5;
+                }
+            }
+        }
+    }
+
+    &__sessia-add-heading {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 90%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        color: $text;
+        margin-bottom: 40px;
+    }
+
+    &__sessia-add-file-input {
+        input {
+            width: 0.1px;
+            height: 0.1px;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            z-index: -1;
+        }
+        label {
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+            color: $main-color;
+            font-size: 14px;
+            padding: 10px 12px;
+            background-color: $primary-color;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+            svg {
+                height: 16px;
+                margin-right: 4px;
+            }
+        }
+    }
+
+    &__sessia-add-btn-wrapper {
+        display: flex;
+        margin-top: 100px;
+        button {
+            display: flex;
+            width: 100%;
+            background: $text;
+            color: $main-color;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 150%;
+            letter-spacing: -0.03em;
+            text-transform: uppercase;
+            padding: 15.5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            cursor: pointer;
+            user-select: none;
+            transition: .3s ease;
+            &:hover {
+                .admin-obucheniye__sessia-add-btn-icon {
+                    transform: rotate(-90deg) translateY(8px);
+                }
+            }
+        }
+    }
+
+    &__sessia-add-btn-icon {
+        margin-left: 5px;
+        font-size: 18px;
+        transform: rotate(-90deg);
+        user-select: none;
+        transition: .3s ease;
+    }
+
+    &__sessia-add-btn-close {
+        color: $main-color;
+        background: $text;
+        font-size: 24px;
+        padding: 18px;
+        border-radius: 15px;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: .3s ease;
+        &:hover {
+            transform: scale(0.97);
+            .admin-obucheniye__sessia-add-btn-close-icon {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    &__sessia-add-btn-close-icon {
+        transition: .3s ease;
+    }
+
+    &__praktika {
+    }
+
+    &__praktika-head {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    &__praktika-head-item {
+        width: 336px;
+        height: 193px;
+        border-radius: 20px;
+        border: 1px solid $text-secondary;
+        padding: 40px;
+        position: relative;
+        transition: .3s ease;
+        margin-right: 20px;
+        cursor: pointer;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:first-child {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 120%;
+            color: $text-secondary;
+            padding: 0;
+            border: none;
+            letter-spacing: .6px;
+            max-width: 336px;
+            padding-top: 20px;
+            cursor: default;
+            user-select: none;
+            &:hover {
+                background: $main-color;
+                border-color: $text-secondary;
+                color: $text-secondary;
+                .admin-obucheniye__praktika-head-item-icon {
+                    color: $text;
+                }
+            }
+        }
+        &:hover {
+            background: $primary-color;
+            border-color: $primary-color;
+            color: $main-color;
+            .admin-obucheniye__praktika-head-item-icon {
+                color: $main-color;
+            }
+        }
+    }
+
+    &__praktika-head-item-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.03em;
+    }
+
+    &__praktika-head-item-icon {
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+        font-size: 48px;
+        color: $primary-color;
+        transition: .3s ease;
+    }
+
+    &__praktika-group {
+    }
+
+    &__praktika-group-wrapper {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    &__praktika-group-item {
+        width: 336px;
+        height: 193px;
+        border-radius: 20px;
+        border: 1px solid $text-secondary;
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: .3s ease;
+        margin-right: 20px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            background: $primary-color;
+            border-color: $primary-color;
+            color: $main-color;
+            .admin-obucheniye__praktika-group-item-arrow {
+                transform: rotate(0deg);
+                color: $main-color;
+            }
+        }
+        &.active {
+            background: $primary-color;
+            border-color: $primary-color;
+            color: $main-color;
+            .admin-obucheniye__praktika-group-item-arrow {
+                transform: rotate(0deg);
+                color: $main-color;
+            }
+        }
+    }
+
+    &__praktika-group-item-title {
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 150%;
+        letter-spacing: -0.03em;
+        margin-right: 10px;
+    }
+
+    &__praktika-group-item-arrow {
+        font-size: 48px;
+        transform: rotate(-90deg);
+        transition: .3s ease;
+    }
+
+    &__praktika-group-content {
+        display: flex;
+    }
+
+    &__praktika-group-content-item {
+        padding: 40px;
+        border-radius: 20px;
+        border: 1px solid $text-secondary;
+        width: 336px;
+        height: 193px;
+        position: relative;
+        margin-right: 20px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__praktika-group-content-item-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: -0.03em;
+    }
+
+    &__praktika-group-content-item-icon {
+        font-size: 48px;
+        color: $primary-color;
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+    }
+
+    &__praktika-group-doc-add {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba($color: #000000, $alpha: .6);
+        z-index: 11;
+    }
+
+    &__praktika-group-doc-add-content {
+        padding: 40px;
+        border-radius: 20px;
+        border: 1px solid $text-secondary;
+        background: $main-color;
+        width: 660px;
+        form {
+            display: flex;
+            flex-direction: column;
+            input {
+                width: 580px;
+                height: 85px;
+                background: $main-color;
+                border-radius: 15px;
+                border: 1px solid $text-secondary;
+                margin-bottom: 10px;
+                padding-left: 15px;
+                font-size: 24px;
+                &::placeholder {
+                    font-size: 24px;
+                    opacity: .5;
+                }
+                &[name=group] {
+                    width: 0.1px;
+                    height: 0.1px;
+                    opacity: 0;
+                    overflow: hidden;
+                    position: absolute;
+                    z-index: -1;
+                }
+            }
+            button {
+                display: flex;
+                width: 100%;
+                background: $text;
+                color: $main-color;
+                font-weight: 500;
+                font-size: 19px;
+                line-height: 150%;
+                letter-spacing: -0.03em;
+                text-transform: uppercase;
+                padding: 15.5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 15px;
+                cursor: pointer;
+                user-select: none;
+                transition: .3s ease;
+                &:hover {
+                    .admin-obucheniye__praktika-group-doc-add-btn-icon {
+                        transform: rotate(-90deg) translateY(8px);
+                    }
+                }
+            }
+        }
+    }
+
+    &__praktika-group-doc-add-heading {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 90%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        color: $text;
+        margin-bottom: 40px;
+    }
+
+    &__praktika-group-doc-add-btn-wrapper {
+        display: flex;
+        margin-top: 100px;
+    }
+
+    &__praktika-group-doc-add-btn-icon {
+        margin-left: 5px;
+        font-size: 18px;
+        transform: rotate(-90deg);
+        user-select: none;
+        transition: .3s ease;
+    }
+
+    &__praktika-group-doc-add-close {
+        color: $main-color;
+        background: $text;
+        font-size: 24px;
+        padding: 18px;
+        border-radius: 15px;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: .3s ease;
+        &:hover {
+            transform: scale(0.97);
+            .admin-obucheniye__praktika-group-doc-add-close-icon {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    &__praktika-group-doc-add-close-icon {
+        transition: .3s ease;
+    }
+
+    &__list-head-wrapper {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+    &__list-head-btn {
+        padding: 19.5px 40px;
+        border-radius: 15px;
+        border: 1px solid $text-secondary;
+        margin-right: 20px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 90%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: .3s ease;
+        user-select: none;
+        &:hover {
+            background: $primary-color;
+            color: $main-color;
+            border-color: $main-color;
+        }
+        &.active {
+            background: $primary-color;
+            color: $main-color;
+            border-color: $main-color;
+        }
+    }
+
+    &__edit {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba($color: #000000, $alpha: .6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__edit-content {
+        padding: 40px;
+        border-radius: 20px;
+        background: $main-color;
+        border: 1px solid $text-secondary;
+        width: 660px;
+        form {
+            input {
+                width: 580px;
+                height: 85px;
+                background: $main-color;
+                border-radius: 15px;
+                border: 1px solid $text-secondary;
+                margin-bottom: 10px;
+                padding-left: 15px;
+                font-size: 24px;
+                &::placeholder {
+                    font-size: 24px;
+                    opacity: .5;
+                }
+                &[name=id] {
+                    width: 0.1px;
+                    height: 0.1px;
+                    opacity: 0;
+                    overflow: hidden;
+                    position: absolute;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+
+    &__edit-heading {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 90%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        color: $text;
+        margin-bottom: 40px;
+    }
+
+    &__edit-btn-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        button {
+            display: flex;
+            width: 100%;
+            background: $text;
+            color: $main-color;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 150%;
+            letter-spacing: -0.03em;
+            text-transform: uppercase;
+            padding: 15.5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            cursor: pointer;
+            user-select: none;
+            transition: .3s ease;
+            &:hover {
+                .admin-obucheniye__edit-icon {
+                    transform: rotate(-90deg) translateY(8px);
+                }
+            }
+        }
+    }
+
+    &__edit-icon {
+        margin-left: 5px;
+        font-size: 18px;
+        transform: rotate(-90deg);
+        user-select: none;
+        transition: .3s ease;
+    }
+
+    &__edit-close {
+        color: $main-color;
+        background: $text;
+        font-size: 24px;
+        padding: 18px;
+        border-radius: 15px;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: .3s ease;
+        &:hover {
+            transform: scale(0.97);
+            .admin-obucheniye__edit-close-icon {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    &__edit-close-icon {
+        transition: .3s ease;
+    }
+} 

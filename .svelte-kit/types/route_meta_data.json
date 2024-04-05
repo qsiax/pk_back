@@ -3,11 +3,23 @@
 	"/admin": [
 		"src/routes/admin/+page.server.js"
 	],
+	"/admin/document": [
+		"src/routes/admin/document/+page.server.js"
+	],
+	"/admin/kursy": [
+		"src/routes/admin/kursy/+page.server.js"
+	],
+	"/admin/news": [
+		"src/routes/admin/news/+page.server.js"
+	],
+	"/admin/obucheniye": [
+		"src/routes/admin/obucheniye/+page.server.js"
+	],
+	"/admin/raspisaniye": [
+		"src/routes/admin/raspisaniye/+page.server.js"
+	],
 	"/archive": [
 		"src/routes/archive/+page.ts"
-	],
-	"/doc": [
-		"src/routes/doc/+page.server.js"
 	],
 	"/dokumenty": [
 		"src/routes/dokumenty/+page.server.js"
@@ -17,9 +29,6 @@
 	],
 	"/finansovo-khozyaystvennaya": [
 		"src/routes/finansovo-khozyaystvennaya/+page.server.js"
-	],
-	"/group": [
-		"src/routes/group/+page.server.js"
 	],
 	"/kursy": [
 		"src/routes/kursy/+page.ts"
@@ -80,10 +89,7 @@
 		"src/routes/proforiyentatsiya/+page.ts"
 	],
 	"/raspisaniye": [
-		"src/routes/raspisaniye/+page.ts"
-	],
-	"/ras": [
-		"src/routes/ras/+page.server.js"
+		"src/routes/raspisaniye/+page.server.js"
 	],
 	"/reytingovyy-spisok": [
 		"src/routes/reytingovyy-spisok/+page.ts"

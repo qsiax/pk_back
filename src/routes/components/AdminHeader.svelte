@@ -14,17 +14,20 @@
                 </div>
             </a>
             <ul class="header__navigation admin">
-                <li aria-current={$page.url.pathname === '/admin' ? 'page' : undefined}>
-                    <a href="/admin" class="header__navigation-btn">Новости</a>
+                <li aria-current={$page.url.pathname === '/admin/news' ? 'page' : undefined}>
+                    <a href="/admin/news" class="header__navigation-btn">Новости</a>
                 </li>
-                <li aria-current={$page.url.pathname === '/doc' ? 'page' : undefined}>
-                    <a href="/doc" class="header__navigation-btn">Документы</a>
+                <li aria-current={$page.url.pathname === '/admin/document' ? 'page' : undefined}>
+                    <a href="/admin/document" class="header__navigation-btn">Документы</a>
                 </li>
-                <li aria-current={$page.url.pathname === '/ras' ? 'page' : undefined}>
-                    <a href="/ras" class="header__navigation-btn">Расписание</a>
+                <li aria-current={$page.url.pathname === '/admin/raspisaniye' ? 'page' : undefined}>
+                    <a href="/admin/raspisaniye" class="header__navigation-btn">Расписание</a>
                 </li>
-                <li aria-current={$page.url.pathname === '/group' ? 'page' : undefined}>
-                    <a href="/group" class="header__navigation-btn">Обучение</a>
+                <li aria-current={$page.url.pathname === '/admin/obucheniye' ? 'page' : undefined}>
+                    <a href="/admin/obucheniye" class="header__navigation-btn">Обучение</a>
+                </li>
+                <li aria-current={$page.url.pathname === '/admin/kursy' ? 'page' : undefined}>
+                    <a href="/admin/kursy" class="header__navigation-btn">образовательные курсы</a>
                 </li>
             </ul>
             <div class="header__block">

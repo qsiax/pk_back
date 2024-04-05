@@ -109,3 +109,28 @@ const groupSlider = new Swiper('.study__item-block-wrapper-group', {
 		clickable: true,
     },
 });
+
+const groupAdminSlider = new Swiper('.admin-obucheniye__praktika-group-swiper', {
+	speed: 600,
+	slidesPerView: 5,
+	spaceBetween: 20,
+	navigation: {
+        nextEl: ".social__slide-arrow-next",
+        prevEl: ".social__slide-arrow-prev",
+    },
+    pagination: {
+        el: ".social__slide-num",
+        type: "fraction",
+    },
+	// breakpoints: {
+	// 	0: {
+	// 		slidesPerView: 1,
+	// 		spaceBetween: 10,
+	// 	},
+	// 	680: {
+	// 		slidesPerView: 3,
+	// 		spaceBetween: 60,
+	// 		autoplay: false
+	// 	}
+	// },
+});

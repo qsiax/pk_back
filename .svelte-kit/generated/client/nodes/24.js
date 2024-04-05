@@ -1,3 +1,3 @@
-import * as universal from "../../../../src/routes/post/[id]/+page.ts";
+import * as universal from "../../../../src/routes/osnovnyye-svedeniya/+page.ts";
 export { universal };
-export { default as component } from "../../../../src/routes/post/[id]/+page.svelte";
+export { default as component } from "../../../../src/routes/osnovnyye-svedeniya/+page.svelte";

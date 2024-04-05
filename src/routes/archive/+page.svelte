@@ -1,6 +1,5 @@
 <script>
     import Heading  from '../../layout/Heading.svelte';
-    import Document from '../../layout/pages/Document.svelte';
 
     let nameMap = 'Абитируенту - Обучение - ';
     let namePage = 'Архив';

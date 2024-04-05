@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/materialno-tekhnicheskoye-obespecheniye/+page.svelte";
+export { default as component } from "../../../../src/routes/finansovo-khozyaystvennaya/+page.svelte";
