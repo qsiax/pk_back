@@ -1,6 +1,7 @@
 .social {
 
     &__container {
+        overflow: visible;
     }
 
     &__body {
@@ -84,20 +85,17 @@
     }
 
     &__item {
+        position: relative;
         width: 336px;
+        min-height: 400px;
         height: 400px;
+        max-height: 400px;
         border-radius: 20px;
         border: 1px solid $text-secondary;
         padding: 30px;
         transform-style: preserve-3d;
         cursor: pointer;
-        &:hover .social__item-sub {
-            transform: perspective(1000px) translateZ(15px);
-        }
         &:hover .social__item-title {
-            transform: perspective(1000px) translateZ(15px);
-        }
-        &:hover .social__item-text {
             transform: perspective(1000px) translateZ(15px);
         }
         &:hover .social__item-btn {
@@ -131,7 +129,7 @@
     &__item-title {
         font-weight: 400;
         font-size: 24px;
-        line-height: 150%;
+        line-height: 100%;
         margin-bottom: 20px;
         transition: .5s ease;
         @media (max-width: $m-point) {
@@ -156,7 +154,10 @@
     }
 
     &__item-btn {
-        margin-top: 100px;
+        position: absolute;
+        width: 83%;
+        bottom: 30px;
+        left: 30px;
         font-weight: 400;
         font-size: 18px;
         line-height: 150%;
@@ -174,6 +175,13 @@
     &__item-btn-arrow {
         transform: rotate(-90deg);
         margin-left: 10px;
+    }
+
+    .swiper {
+        overflow: visible !important;
+    }
+    .swiper-button-next {
+
     }
 }
 

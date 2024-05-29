@@ -172,4 +172,16 @@ export const actions={
 
         await locals.pb.collection('group_doc').update(id,newRecord)
     },
+    updateG: async({request, locals}) => {
+        let form = await request.formData()
+
+        let id = form.get('id')
+        let title = form.get('title')
+
+        let newRecord = {
+            title
+        }
+
+        await locals.pb.collection('group').update(id,newRecord)
+    },
 }

@@ -1,27 +1,10 @@
 <script>
-import Swiper from "swiper/bundle";
-  import "swiper/css/bundle";
-
-  import { onMount } from "svelte";
-
-  onMount(() => {
-    const groupAdmin = new Swiper(".admin-obucheniye__praktika-group-swiper", {
-        slidesPerView: 3,
-        spaceBetween: 10,
-        // navigation: {
-        //     nextEl: ".study__item-group-arrow-next",
-        //     prevEl: ".study__item-group-arrow-prev",
-        // },
-        // pagination: {
-        //     el: ".study__item-group-pagination",
-        //     clickable: true,
-        // },
-        });
-        groupAdmin.loopDestroy();
-    });
+    import { Swiper, SwiperSlide } from 'swiper/svelte';
+    import 'swiper/css';
 
     export let data
 
+    let swiper
     let showDiplomList = false
     let showDiplomAdd = false
 
@@ -235,48 +218,28 @@ import Swiper from "swiper/bundle";
                     </div>
                     {/if}
                 </div>
-                <div class="admin-obucheniye__praktika-group-swiper swiper">
-                    <div class="admin-obucheniye__praktika-group-wrapper swiper-wrapper">
-                        <div class='admin-obucheniye__praktika-group-item swiper-slide'>
-                            <div class="admin-obucheniye__praktika-group-item-title">Исип - 20</div>
-                            <div class="admin-obucheniye__praktika-group-item-arrow _icon-arrow"></div>
-                        </div>
-                        <div class='admin-obucheniye__praktika-group-item swiper-slide'>
-                            <div class="admin-obucheniye__praktika-group-item-title">Исип - 20</div>
-                            <div class="admin-obucheniye__praktika-group-item-arrow _icon-arrow"></div>
-                        </div>
-                        <div class='admin-obucheniye__praktika-group-item swiper-slide'>
-                            <div class="admin-obucheniye__praktika-group-item-title">Исип - 20</div>
-                            <div class="admin-obucheniye__praktika-group-item-arrow _icon-arrow"></div>
-                        </div>
-                        <div class='admin-obucheniye__praktika-group-item swiper-slide'>
-                            <div class="admin-obucheniye__praktika-group-item-title">Исип - 20</div>
-                            <div class="admin-obucheniye__praktika-group-item-arrow _icon-arrow"></div>
-                        </div>
-                        <div class='admin-obucheniye__praktika-group-item swiper-slide'>
-                            <div class="admin-obucheniye__praktika-group-item-title">Исип - 20</div>
-                            <div class="admin-obucheniye__praktika-group-item-arrow _icon-arrow"></div>
-                        </div>
-                        <div class='admin-obucheniye__praktika-group-item swiper-slide'>
-                            <div class="admin-obucheniye__praktika-group-item-title">Исип - 20</div>
-                            <div class="admin-obucheniye__praktika-group-item-arrow _icon-arrow"></div>
-                        </div>
-                        <!-- {#each data?.groups as group}
-                            <div class={group.title === groupActive ? 'admin-obucheniye__praktika-group-item swiper-slide active' : 'admin-obucheniye__praktika-group-item swiper-slide'} on:click={() => (groupActive = group.title)}>
+                <Swiper
+                    spaceBetween={20}
+                    slidesPerView={5}
+                    speed={700}
+                    class="mb20"
+                >
+                    {#each data?.groups as group}
+                        <SwiperSlide class={group.title === groupActive ? 'admin-obucheniye__praktika-group-item active' : 'admin-obucheniye__praktika-group-item'}>
+                            <div class="admin-obucheniye__praktika-group-item-wrapper" on:click={() => (groupActive = group.title)}>
                                 <div class="admin-obucheniye__praktika-group-item-title">{group.title}</div>
                                 <div class="admin-obucheniye__praktika-group-item-arrow _icon-arrow"></div>
                             </div>
-                        {/each} -->
-                    </div>
-                </div>
+                        </SwiperSlide>
+                    {/each}
+                </Swiper>
                 <div class="admin-obucheniye__praktika-group">
-
                     <div class="admin-obucheniye__praktika-group-content">
                         {#each data?.groups as group}
                             {#if groupActive === group.title}
                                 {#each data?.groupdocs as groupdoc}
                                     {#if groupdoc.group === groupActive}
-                                        <a class="admin-obucheniye__praktika-group-content-item" href="http://127.0.0.1:8090/api/files/{groupdoc.templatep}/{groupdoc.templatep}/{groupdoc.templatep}?token=" target="_blank">
+                                        <a class="admin-obucheniye__praktika-group-content-item" href="http://127.0.0.1:8090/api/files/{groupdoc.collectionId}/{groupdoc.id}/{groupdoc.file}?token=" target="_blank">
                                             <div class="admin-obucheniye__praktika-group-content-item-title">{groupdoc.title}</div>
                                             <div class="admin-obucheniye__praktika-group-content-item-icon _icon-download"></div>
                                         </a>
@@ -435,7 +398,7 @@ import Swiper from "swiper/bundle";
                                 <div class="admin-obucheniye__edit-heading">Редактировать группу</div>
                                 {#each data?.groups as group}
                                     {#if groupEdit === group.id}
-                                        <form action="?/updateGD" method="POST">
+                                        <form action="?/updateG" method="POST">
                                             <input type="text" name="title" value={group.title}>
                                             <input type="text" name="id" value={group.id}>
                                             <div class="admin-obucheniye__edit-btn-wrapper">

@@ -1,6 +1,5 @@
 <script>
     import Heading  from '../../layout/Heading.svelte';
-    import Document from '../../layout/pages/Document.svelte';
 
     let nameMap = '';
     let namePage = 'Образование';
@@ -21,7 +20,6 @@
 <section class="document">
     <div class="document__container _container">
         <div class="document__body">
-            <Document />
         </div>
     </div>
 </section>

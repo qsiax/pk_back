@@ -31,7 +31,7 @@
 		"src/routes/finansovo-khozyaystvennaya/+page.server.js"
 	],
 	"/kursy": [
-		"src/routes/kursy/+page.ts"
+		"src/routes/kursy/+page.server.js"
 	],
 	"/login": [
 		"src/routes/login/+page.server.js"
@@ -61,7 +61,7 @@
 		"src/routes/obshchezhitiye/+page.ts"
 	],
 	"/obucheniye": [
-		"src/routes/obucheniye/+page.ts"
+		"src/routes/obucheniye/+page.server.js"
 	],
 	"/osnovnyye-svedeniya": [
 		"src/routes/osnovnyye-svedeniya/+page.ts"

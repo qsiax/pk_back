@@ -36,6 +36,6 @@
 		"gsap": "^3.12.5",
 		"json-server": "^1.0.0-alpha.23",
 		"pocketbase": "^0.20.0-rc3",
-		"swiper": "^11.0.6"
+		"swiper": "^8.4.6"
 	}
 }
